@@ -1,0 +1,100 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 4rem 6rem;
+
+
+}
+
+.topRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 86%;
+
+}
+
+
+.topRow h1{
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.topRow p{
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+.topRow a{
+    text-align: left;
+}
+
+.topRow i{
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    
+}
+
+.topRow i:hover{
+    color: teal;
+   
+}
+
+.bottomRow{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    
+
+}
+
+
+.bottomRow h4{
+    text-align: left;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+
+.bottomRow a{
+    text-align: left; 
+    text-decoration: none;  
+    color: wheat;
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+
+}
+
+
+.bottomRow a:hover{
+   color: white;
+
+}
+
+.bottomRow div{
+    /* text-align: left;    */
+    display: flex;
+    flex-direction: column; 
+
+}
+
+@media screen and (max-width:850px) {
+    .footer{
+        padding: 4rem 2rem;
+    }
+    .iconCont{
+        margin-left: -15px;
+    }
+
+    .bottomRow div{
+        width: 50%;
+    }
+    
+}

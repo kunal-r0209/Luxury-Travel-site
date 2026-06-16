@@ -1,0 +1,131 @@
+.destination {
+    margin: 4rem 6rem;
+
+}
+
+.destination h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+.destination p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* border-bottom: 1px solid black; */
+}
+
+
+.firstDesc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.firstDesc-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.firstDesc h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+
+}
+
+
+.firstDesc-reverse h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+
+}
+.descText {
+    width: 45%;
+    text-align: left;
+    font-size: 1.1rem;
+
+}
+
+.descText p{
+    font-size: 20px;
+        
+    text-align: left;
+}
+
+.destImages {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+
+
+}
+
+.destImages img {
+    width: 49%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px 20px 50px 20px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.3);
+}
+
+.destImages img:nth-child(2) {
+
+    position: relative;
+    top: -30px;
+
+}
+
+
+@media screen and (max-width : 850px) {
+
+    .destination {
+        margin: 2rem 3rem;
+
+    }
+
+
+    .firstDesc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .firstDesc-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .descText {
+        width: 100%;
+        text-align: left;
+    }
+
+    .descText p{
+        
+        text-align: left;
+    }
+
+
+    .destImages {
+        width: 100%;
+        margin: 2rem 0;
+
+    }
+
+
+    .destImages img {
+        height: 350px;
+        border-radius: 25px 10px 25px 10px;
+
+    }
+
+}
